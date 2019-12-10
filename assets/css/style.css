@@ -15,11 +15,9 @@ html, body {
 header {
     height: 650px;
 }
-.header {
-    top: 0;
-    position: relative;
-    min-width: 320px;
-    height: 500px;
+
+#header {
+    width:100%;
 }
 section {
     position: relative;
@@ -163,7 +161,7 @@ a:hover {
 .extra {
     display: none;
     height: 100%;
-    height: auto;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -476,6 +474,10 @@ h5, p {
         display: block;
         margin-left: -55px;
         z-index: -1;
+        height: 450px;
+    }
+    .extra img {
+        height: 450px;
     }
     .skills-wrapper {
         width: 50%;
