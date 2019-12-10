@@ -478,6 +478,7 @@ h5, p {
     }
     .extra img {
         height: 450px;
+        margin-left: -60px;
     }
     .skills-wrapper {
         width: 50%;
@@ -485,10 +486,13 @@ h5, p {
         margin-right: -10%;
     }
     
-    /*  WEXPERIENCE  */
+    /*  EXPERIENCE  */
     .photo-3-wrapper .subtitle.container {
         margin-left: 0;
         left: 7%;
+    }
+    .section-spacing .photo-3-wrapper {
+        height: 900px;
     }
 
     /*  LAST IMAGE  */
@@ -605,6 +609,8 @@ h5, p {
     }
     .extra img {
         height: 495px;
+        margin-left: 0px;
+        margin-top: -40px;
     }
     
     /*  LAST IMAGE  */
