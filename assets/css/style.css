@@ -1,0 +1,627 @@
+@import url("https://use.typekit.net/nnd2vxe.css");
+body {
+    margin: 0px;
+    background-color: black;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+* {
+    color: rgb(218, 218, 218);
+}
+
+/*  === BANNER ===  */
+header {
+    height: 650px;
+}
+.header {
+    top: 0;
+    position: relative;
+    min-width: 320px;
+    height: 500px;
+}
+section {
+    position: relative;
+    margin: 0 auto;
+}
+figure {
+    margin: 0;
+}
+
+.name {
+    display: block;
+    position: absolute;
+    width: 308.05px;
+    height: 170.78px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    background-image: url('../img/mobile/main-title.svg');
+    background-repeat: no-repeat;
+}
+
+/*  NAVIGATION  */
+.navbar, .footer-nav {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
+.navbar .navline {
+    left: 0;
+    right: 0;
+}
+.footer-nav {
+    display: flex;
+    width: 100%;
+}
+.navbar {
+    top: 600px;
+}
+.navline, .line, .subtitle-line {
+    margin: 0 auto;
+    width: 95%;
+    height: 0px;
+    border: 1px solid #F2F2F2;
+    z-index: 1;
+}
+
+.navline {
+    top: 65px;
+    position: absolute;
+}
+.footer-nav {
+   margin-top: 15px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.navbar .row {
+    width: 90%;
+    height: 20px;
+    margin: 0 auto;
+}
+.row {
+    margin: 0;
+    width: 75%;
+    display: flex;
+    text-transform: uppercase;
+    justify-content:space-between;
+}
+.footer-nav li {
+    margin: 0 auto;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #ADCAEC;
+    text-shadow: 0px 0px 8px #ADCAEC;
+}
+#intro {
+    position: relative;
+    margin-top: 120px;
+}
+.nav-gradient {
+    margin-top: -25px;
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(360deg, #000000 5%, rgba(0, 0, 0, 0.0) 80%);
+    
+}
+
+/*  PHOTOS  */
+.photo-2 img {
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:100%;
+    z-index: -1;
+}
+.photo-2 {
+    position: relative;
+}
+.photo-2 .subtitle.container {
+    position: relative;
+    margin-bottom: 60px;
+}
+.section-spacing {
+    padding-bottom: 100px;
+}
+.photo-3 {
+    bottom: 90px;
+    position: relative;
+    min-width: 320px;
+    height: 900px;
+    background-image: url('../img/szechenyi.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+.photo-3-wrapper {
+    height: 1200px;
+}
+.photo-4 {
+    width: 100%;
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/toronto.png);
+    background-position: center;
+    z-index: -1;
+}
+.photo-4-wrapper {
+    height: 725px;
+}
+
+.last-image {
+    position: relative;
+}
+.extra {
+    display: none;
+    height: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/*  DEMOGRAPHICS  */
+.bio h5, .bio h4, .bio h3 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+}
+.bio h3 {
+    line-height: 5px;
+    padding-bottom: 10px;
+}
+
+/*  EXPERIENCE  */
+.section-title {
+    margin: 10px 0;
+}
+.overlay-txt {
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 650px;
+}
+
+/*  SUBTITLES  */
+.subtitle {
+    position: relative;
+    top: 30px;
+}
+.photo-3-wrapper .subtitle.container {
+    top: 60px;
+}
+
+/*  SKILLS */
+.skills-header {
+    margin-bottom: 25px;
+}
+.skills-header .bottom-line {
+    border: 1px solid #F2F2F2;
+}
+.data-tab {
+    left: auto;
+    right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills-list {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    z-index: 3px;
+}
+.skills-list h5 {
+    margin: 20px 0;
+}
+.skills-wrapper {
+    margin: 50px 0 0 0px;
+    width: 100%;
+    height: 400px;
+}
+.icon {
+    position: relative;
+    text-align: center;
+}
+#skills-set {
+    position: relative;
+    width: 100%;
+    height: 501px;
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    display: block;
+    height: 0px;
+    top: 0;
+}
+
+
+/*  CENTER ALIGN  */
+.container, .box-content, .name, ul, .navline, .line, .centered {
+    margin: 0 auto;
+}
+.container {
+    min-width: 315px;
+    max-width: 85%;
+}
+.bio-container {
+    width: 315px;
+}
+.bio-container.outline {
+    margin-left: 0;
+}
+
+/*  BOX AND OUTLINES  */
+.outline {
+    border: 1px solid #DADADA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.box-content {
+    width: 95%;
+    margin-bottom: 12px;
+}
+.box-content h4:last-child {
+    margin: 20px 0;
+    line-height: 0px;
+}
+.right-align, .left-align h4 {
+    text-align: end;
+}
+.right-align h4 {
+    text-align: left;
+}
+.left-align *, .right-align * {
+    line-height: 0;
+}
+.right-align-object {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+/*  SCROLL  */
+.scroll-up {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    background-image: url(../icons/scroll-up.svg);
+    background-size: cover;
+}
+.scroll-up:hover {
+    background-position: right;
+}
+
+/*  FOOTER   */
+.contacts {
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    height: 200px;
+}
+.mail {
+    padding:0px 0px 0px 70px;
+    background-repeat:no-repeat;
+    background-image: url(../icons/mail.svg);
+    bottom: 0px;
+}
+.address {
+    padding:0px 0px 0px 70px;
+    background-repeat:no-repeat;
+    background-image: url(../icons/location.svg);
+    bottom: 0px;
+}
+.phone {
+    padding:0px 0px 1px 70px;
+    background-repeat:no-repeat;
+    background-image: url(../icons/phone.svg);
+    bottom: 0px;
+}
+
+/*  === TYPOGRAPHY ===  */
+h2, h3, .box-content h6 {
+    text-transform:uppercase;
+}
+h2 {
+    font-family: din-condensed, sans-serif;
+}
+h3, h4, h6 {
+    font-family: din-2014-narrow, sans-serif;
+}
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+}
+h3 {
+    font-weight: 200;
+    font-size: 28px;
+}
+h4 {
+    margin: 0;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 10px;
+}
+.biography {
+    padding-top: 50px;
+}
+.biography h4 {
+    margin-bottom: 15px;
+}
+.subtitle h4 {
+    font-family: din-2014, sans-serif;
+    font-size: 18px;
+    margin: -25px 0;
+}
+h6 {
+    font-weight: 400;
+    font-size: 16px;
+}
+h5, p {
+    font-size: 16px; 
+    margin-top: 0px;
+}
+h5, p {
+    font-family: din-2014, sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/*  =================================  */
+/*  ============ QUERIES ============  */
+/*  =================================  */
+
+
+@media (min-width: 600px) {
+    /*  SUBTITLES  */
+    .subtitle.container {
+        top: 100px;
+        max-width: 350px;
+        margin-left: 60px;
+    }
+    .photo-2 {
+        position: relative;
+    }
+    .photo-2 .subtitle.container {
+        position: relative;
+        top: 100%;
+    }
+    .photo-3-wrapper .subtitle.container {
+        top: 125px;
+    }
+    
+    /*  SKILLS  */
+    .skills-list {
+        max-width: 100%;
+        width: 480px;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 3;
+    }
+    
+    /*  FOOTER  */
+    .footer-nav .row {
+    max-width: 450px;
+}
+}
+@media (min-width: 800px) {
+    
+    .name {
+    display: block;
+    position: absolute;
+    width: 308.05px;
+    height: 170.78px;
+    top: 40px;
+    margin-left: 40px;
+    background-image: url('../img/mobile/main-title.svg');
+    background-repeat: no-repeat;
+}
+    .navbar {
+    top: 800px;
+}
+    .navbar .row {
+    width: 60%;
+    height: 20px;
+    margin: 0 auto;
+}
+    #intro {
+        position: relative;
+        margin-top: 300px;
+    }
+    
+    
+        /*  LISTS  */
+    .box-content {
+    width: 95%;
+    margin-bottom: 12px;
+}
+    .col-list .container.outline {
+        max-width: 500px;
+    }
+    .col-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    .overlay-txt {
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 650px;
+}
+    
+    /*  SKILLS  */
+    #skills-set {
+    margin-top: 50px;
+    }
+    .skills-list {
+        margin-left: 0;
+        max-width: 85%;
+        z-index: 3;
+    }
+    .extra {
+        display: block;
+        margin-left: -55px;
+        z-index: -1;
+    }
+    .skills-wrapper {
+        width: 50%;
+        margin: 50px 0px 0 5%;
+        margin-right: -10%;
+    }
+    
+    /*  WEXPERIENCE  */
+    .photo-3-wrapper .subtitle.container {
+        margin-left: 0;
+        left: 7%;
+    }
+
+    /*  LAST IMAGE  */
+    .photo-4 {
+        background-size:cover;
+        height: 100%;
+    }
+    .last-image .subtitle.container {
+        position: relative;
+        margin-top: -250px;
+    }
+    .photo-4-wrapper {
+        overflow-y: visible;
+}
+    .right-align-object {
+        position: absolute;
+        right: 25px;
+    }
+
+    /*  FOOTER  */
+    .contacts {
+        display: flex;
+        height: 100px;
+    }
+   .inline-list {
+        margin-top: 15px;
+        width: 800px;
+        height: 60px;
+        display: flex;
+        text-transform: uppercase;
+        justify-content:space-around;
+        }
+    .inline-list h5 {
+        font-size: 14px;
+    }
+    .mail {
+        padding:0px 0px 0px 40px;
+    }
+    .address {
+        padding:0px 0px 0px 40px;
+    }
+    .phone {
+        padding:0px 0px 1px 40px;
+    }
+    
+    /*  TYPOGRAPHY  */
+    .navbar .row h6 {
+        font-size: 18px;
+    }
+    .navbar .navline {
+        top: 70px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    
+    .banner-figure {
+        height: 870px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .name {
+    display: block;
+    position: absolute;
+    width: 616.1px;
+    height: 170.78px;
+    top: 40px;
+    background-image: url('../img/mobile/main-title.svg');
+    background-repeat: no-repeat;
+}
+    
+    /*  INTRO  */
+    #intro {
+        width: 95%;
+        position: relative;
+        margin-top: 300px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+}
+    .bio-container {
+        margin: 0 10px;
+    }
+    .biography {
+        width: 300px;
+        padding-left: 30px;
+        z-index: 1;
+    }
+    .photo-2 .subtitle.container {
+        position: relative;
+        margin-left: 55px;
+        width: 80%;
+    }
+    .section-spacing .line {
+        display: none;
+    }
+    .illustration {
+        margin-left: -30px;
+        z-index: -1;
+    }
+    
+    /*  SKILLS  */
+    .skills-wrapper {
+        margin: 50px 0 0 4%;
+        width: 50%;
+        height: 440px;
+        margin-right: -20%;
+        z-index: 2;
+    }
+    .skills-list {
+        max-width: 75%;
+        width: 400px;
+    }
+    .extra img {
+        height: 495px;
+    }
+    
+    /*  LAST IMAGE  */
+    .photo-4 {
+        background-size:cover;
+        height: 100%;
+        overflow-y: auto;
+    }
+    .last-image .subtitle.container {
+        position: relative;
+        margin-top: -250px;
+    }
+    .photo-4-wrapper {
+        height: 700px;
+}
+
+    /*  PHOTO SPACING  */
+    .photo-3-wrapper {
+        height: 900px;
+    }
+}  
+
