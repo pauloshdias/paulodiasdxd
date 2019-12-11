@@ -26,6 +26,9 @@ section {
 figure {
     margin: 0;
 }
+picture {
+    margin 0;
+}
 
 .name {
     display: block;
@@ -35,7 +38,7 @@ figure {
     top: 40px;
     left: 0;
     right: 0;
-    background-image: url('../img/mobile/main-title.svg');
+    background-image: url(../img/main-title.svg);
     background-repeat: no-repeat;
 }
 
@@ -132,7 +135,7 @@ a:hover {
     position: relative;
     min-width: 320px;
     height: 900px;
-    background-image: url('../img/szechenyi.png');
+    background-image: url(../img/@1/szechenyi.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -147,7 +150,7 @@ a:hover {
     height: 500px;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url(../img/toronto.png);
+    background-image: url(../img/@1/toronto@1.jpg);
     background-position: center;
     z-index: -1;
 }
@@ -423,8 +426,6 @@ h5, p {
     height: 170.78px;
     top: 40px;
     margin-left: 40px;
-    background-image: url('../img/mobile/main-title.svg');
-    background-repeat: no-repeat;
 }
     .navbar {
     top: 800px;
@@ -499,6 +500,7 @@ h5, p {
     .photo-4 {
         background-size:cover;
         height: 100%;
+        background-image: url(../img/@2/toronto@2.jpg);
     }
     .last-image .subtitle.container {
         position: relative;
@@ -517,7 +519,7 @@ h5, p {
         display: flex;
         height: 100px;
     }
-   .inline-list {
+    .inline-list {
         margin-top: 15px;
         width: 800px;
         height: 60px;
@@ -549,27 +551,34 @@ h5, p {
 
 
 @media (min-width: 1024px) {
-    
+    header {
+    height: 870px;
+    overflow: hidden;
+}
     .banner-figure {
         height: 870px;
         width: 100%;
         overflow: hidden;
     }
+    .banner-figure-wrapper {
+        overflow: hidden !important;
+        height: 870px !important;
+    }
+ 
     .name {
     display: block;
     position: absolute;
     width: 616.1px;
     height: 170.78px;
     top: 40px;
-    background-image: url('../img/mobile/main-title.svg');
-    background-repeat: no-repeat;
+
 }
     
     /*  INTRO  */
     #intro {
         width: 95%;
         position: relative;
-        margin-top: 300px;
+        margin-top: 100px;
         margin-bottom: 80px;
         display: flex;
         justify-content: space-between;
@@ -595,6 +604,11 @@ h5, p {
         z-index: -1;
     }
     
+    /*  EXPERIENCE  */
+    .photo-3 {
+        background-image: url(../img/@3/szechenyi@3.jpg);
+    }
+    
     /*  SKILLS  */
     .skills-wrapper {
         margin: 50px 0 0 4%;
@@ -618,6 +632,7 @@ h5, p {
         background-size:cover;
         height: 100%;
         overflow-y: auto;
+        background-image: url(../img/@3/toronto@3.jpg);
     }
     .last-image .subtitle.container {
         position: relative;

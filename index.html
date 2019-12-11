@@ -11,10 +11,12 @@
 </head>
 <body>
     <header>
-        <div>
-            <figure class="banner-figure">
-                <img id="header" src="assets/img/french-faces.png" alt="monocrome photograph of a sillouet of an old man climbing escalator facing two young men going down">
-            </figure>
+        <div clas="banner-figure-wrapper">
+            <picture class="banner-figure">
+                <source media="(min-width: 800px)" srcset="assets/img/@3/french-faces@3.jpg">
+                <source media="(min-width: 600px)" srcset="assets/img/@2/french-faces@2.jpg">
+                <img id="header" src="assets/img/@1/french-faces.jpg" alt="monocrome photograph of a sillouet of an old man climbing escalator facing two young men going down">
+            </picture>
         </div>
         <figure>
             <div class="name"></div>
@@ -51,13 +53,14 @@
         </article>
         <div class="section-spacing">
             <aside class="illustration">
-                <figure class="photo-2">
-                    <img src="assets/img/budapest.png" alt="silouete of people walking on a naked trees park in christmas with a skating righ in the background">
+                <picture class="photo-2">
+                    <source media="(min-width: 1024px)" srcset="assets/img/@3/budapest@3.jpg">
+                    <img src="assets/img/@1/budapest.jpg" alt="silouete of people walking on a naked trees park in christmas with a skating righ in the background">
                     <figcaption class="subtitle container">
                         <h4>VAJDAHUNYAD CASTLE</h4>
                         <h6>Uma noite fria de Janeiro. Depois de um dia bem passado, entre amigos, nas termas de Széchenyi, deparam-nos com o Castelo de Vajdahunyad, junto de um ringue de patinagem. O frio apertava noite mas não impediu muitos de passearem pelo espaço e tentarem algumas acrobacias sobre o gelo.</h6>
                     </figcaption>
-                </figure>
+                </picture>
                 <div class="line"></div>
             </aside>
         </div>
@@ -184,7 +187,7 @@
                 </div>
                 <aside class="extra">
                     <figure>
-                        <img src="assets/img/nyc.png" alt="cityscape from Empire State Building at dusk">
+                        <img src="assets/img/@1/nyc.jpg" alt="cityscape from Empire State Building at dusk">
                     </figure>
                 </aside>
             </div>
