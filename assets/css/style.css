@@ -57,7 +57,7 @@ picture {
     width: 100%;
 }
 .navbar {
-    top: 600px;
+    top: 80vh;
 }
 .navline, .line, .subtitle-line {
     margin: 0 auto;
@@ -103,7 +103,7 @@ a:hover {
 }
 #intro {
     position: relative;
-    margin-top: 120px;
+    margin-top: 300px;
 }
 .nav-gradient {
     margin-top: -25px;
@@ -428,7 +428,7 @@ h5, p {
     margin-left: 40px;
 }
     .navbar {
-    top: 800px;
+    top: 80vh;
 }
     .navbar .row {
     width: 60%;
@@ -552,7 +552,7 @@ h5, p {
 
 @media (min-width: 1024px) {
     header {
-    height: 870px;
+    height: 87vh;
     overflow: hidden;
 }
     .banner-figure {
@@ -648,3 +648,11 @@ h5, p {
     }
 }  
 
+@media (min-width: 1280px) {
+      .photo-3 {
+        background-image: url(../img/@4/szechenyi@4.jpg);
+    }
+      .photo-4 {
+        background-image: url(../img/@4/toronto@4.jpg);
+    }
+}
